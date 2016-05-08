@@ -3,10 +3,8 @@
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
-datasets. In particular, we will be using the "Individual household
-electric power consumption Data Set" which I have made available on
-the course web site:
-
+datasets. In particular, the dataset "Individual household
+electric power consumption Data Set" have been used to compile the graphs with.
 
 * <b>Dataset</b>: <a href="https://d396qusza40orc.cloudfront.net/exdata%2Fdata%2Fhousehold_power_consumption.zip">Electric power consumption</a> [20Mb]
 
@@ -14,7 +12,6 @@ the course web site:
 one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
 are available.
-
 
 The following descriptions of the 9 variables in the dataset are taken
 from
@@ -35,9 +32,15 @@ web site</a>:
 
 ## Loading the data
 
+###All plots
 
+<li>The original full dataset was loaded into R
+<li>The Date attribute was changed to date format from factor
+<li>The subsetting of the data was done
 
-
+####Plot 1
+Global active power attribute changed to numeric
+Histogram graph drawn
 
 When loading the dataset into R, please consider the following:
 
